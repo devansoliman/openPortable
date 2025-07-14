@@ -1,0 +1,27 @@
+{
+    "manufacturer": "Soliman",
+    "keyboard_name": "openportable",
+    "maintainer": "devansoliman",
+    "development_board": "kb2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+
+    "matrix_pins": {
+        "cols": ["GP0", "GP1", "GP2", "GP3", "GP4", "GP5", "GP6", "GP7", "GP8", "GP9", "GP12", "GP13", "GP10", "GP19"],
+        "rows": ["GP29", "GP28", "GP27", "GP26", "GP18", "GP20"]
+    },
+
+    "url": "",
+    "usb": {
+        "device_version": "0.0.1",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    }
+}
